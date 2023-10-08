@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Iosevka:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 25;
 
 /*
@@ -96,28 +96,28 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#45475A",
-	"#F38BA8",
-	"#A6E3A1",
-	"#F9E2AF",
-	"#89B4FA",
-	"#F5C2E7",
-	"#94E2D5",
-	"#BAC2DE",
+	"#232A2E", // bg2
+	"#E67E80", // red
+	"#A7C080", // pink
+	"#DBBC7F", // yellow
+	"#7FBBB3", // blue
+	"#D699B6", // mauve (kinda violet) 
+	"#83C092", // teal (kinda blue)
+	"#D3C6AA", // subtext1
 
 	/* 8 bright colors */
-	"#585B70",
-	"#F38BA8",
-	"#A6E3A1",
-	"#F9E2AF",
-	"#89B4FA",
-	"#F5C2E7",
-	"#94E2D5",
-	"#A6ADC8",
+	"#2D353B", // surface2
+	"#E67E80", // red
+	"#A7C080", // pink
+	"#DBBC7F", // yellow
+	"#7FBBB3", // blue
+	"#D699B6", // mauve (kinda violet) 
+	"#83C092", // teal (kinda blue)
+	"#FFFBEF", // subtext0
 
-[256] = "#CDD6F4", /* default foreground colour */
-[257] = "#1E1E2E", /* default background colour */
-[258] = "#F5E0DC", /*575268*/
+[256] = "#D3C6AA", /* default foreground colour */
+[257] = "#232A2E", /* default background colour */
+[258] = "#A7C080", /*575268*/
 
 };
 
